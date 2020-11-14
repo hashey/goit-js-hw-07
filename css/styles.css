@@ -1,3 +1,22 @@
+/* Nav */
+a {
+  text-decoration: none;
+}
+.navLinks {
+  font-size: 20px;
+  margin-bottom: 10px;
+  list-style: none;
+  color: #18ab29;
+}
+
+.navLinks::before {
+  content: '✔';
+}
+
+.homeLinks::before {
+  content: '🏡';
+}
+
 /* Task #3 */
 .js-img {
   width: 600px;
@@ -43,4 +62,17 @@
   font-size: 30px;
   margin-left: 10px;
   margin-right: 10px;
+}
+
+/* Task #6 */
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
 }
