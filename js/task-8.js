@@ -33,6 +33,7 @@ const createBoxes = amount => {
 
 const destroyBoxes = () => {
   boxesRef.innerHTML = '';
+  inputRef.value = '';
 };
 
 renderButtonRef.addEventListener('click', () => createBoxes(inputRef.value));
